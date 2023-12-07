@@ -35,6 +35,12 @@ import mic from "./company/mic.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import reviewsado from "./reviewsado.png";
+import healthsync from "./healthsync.png";
+import shopkart from "./shopkart.png";
+import bookingapp from "./bookingapp.png";
+import mes1 from "./mes.png";
+import otherproducts from "./otherproducts.png";
 
 export {
   logo,
@@ -71,4 +77,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  reviewsado,
+  healthsync,
+  shopkart,
+  bookingapp,
+  mes1,
+  otherproducts,
 };

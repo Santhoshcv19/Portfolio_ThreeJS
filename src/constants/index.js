@@ -21,10 +21,16 @@ import {
     carrent,
     jobit,
     tripguide,
+    reviewsado,
+    healthsync,
     threejs,
     voicesnap,
     mes,
-    mic
+    mic,
+    shopkart,
+    bookingapp,
+    mes1,
+    otherproducts,
   } from "../assets";
   
   export const navLinks = [
@@ -184,58 +190,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "HealthSync",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A fitness application that has an array of features designed to empower both clients and trainers. A submitted idea for Smart India Hackathon which got selected in top 30 out of 286 teams.",
       tags: [
         {
-          name: "react",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "SQLite",
           color: "green-text-gradient",
         },
         {
@@ -243,8 +207,113 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: healthsync,
+      source_code_link: "https://github.com/Santhoshcv19/HealthSync",
+    },
+    {
+      name: "Shopkart",
+      description:
+        "An E-Commerce web application created during the internship at Voice Snap. Includes CRUD operations, Authentication and dynamically takes the product details from PostgreSQL database",
+      tags: [
+        {
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shopkart,
+      source_code_link: "https://github.com/Santhoshcv19/ShopKart",
+    },
+    {
+      name: "Booking App",
+      description:
+        "A comprehensive travel booking platform that allows users to book hotels for popular destinations. Includes an admin page for CRUD operations connected with MongoDB database.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookingapp,
+      source_code_link: "https://github.com/Santhoshcv19/Booking_App",
+    },
+    {
+      name: "Payslip Generator",
+      description:
+        "A payslip generator created for Ministon Engineering Services while being a technical consultant. Includes creating and adding employee details, importing attendance csv file and exporting a formatted payslip.",
+      tags: [
+        {
+          name: "django",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQLite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mes1,
+      source_code_link: "https://github.com/Santhoshcv19/PayRoll-System-Project",
+    },
+    {
+      name: "Partners Web Page",
+      description:
+        "A dynamic user-friendly web page created during the internship at Voice Snap. Users can simply click a button and contact the partners of the company. A request is sent to the database with the user details.",
+      tags: [
+        {
+          name: "denojs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "postgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: otherproducts,
+      source_code_link: "https://schoolchimes.com/vs_web/other_products/?instituteId=5512&staffId=10000",
+    },
+    {
+      name: "Reviewsado",
+      description:
+        "A dynamic user-friendly created using Django. Includes our reviews of some of the famous T.V.Shows. Users can check out the reviews or click a button to check the imdb reviews of the same.",
+      tags: [
+        {
+          name: "django",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQLite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: reviewsado,
+      source_code_link: "https://schoolchimes.com/vs_web/other_products/?instituteId=5512&staffId=10000",
     },
   ];
   
